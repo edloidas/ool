@@ -2,6 +2,7 @@ import {resolve} from 'path';
 import autoprefixer from 'autoprefixer';
 
 export default {
+  base: '',
   build: {
     rollupOptions: {
       input: {

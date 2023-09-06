@@ -8,7 +8,7 @@
 }
 
 .Logo-Author {
-
+  display: none; /* Hide author for now */
   position: absolute;
   width: 100%;
   top: -2em;
