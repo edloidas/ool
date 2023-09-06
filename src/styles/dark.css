@@ -1,0 +1,26 @@
+.theme-dark {
+  /** BACKGROUND */
+  /* Game Background */
+  --color-ui-bg: hsla(0deg, 0%, 7%);
+  /*  Hovered Background, as bg on :hover */
+  --color-ui-bg-hover: hsla(0deg, 0%, 15%);
+  /*  Active Background, as bg on :active */
+  --color-ui-bg-active: hsl(0, 0%, 13%);
+
+  /* Foreground, as submenu on Screen */
+  --color-ui-fg: hsl(0, 0%, 11%);
+
+  /** FONT */
+  /* Main Font */
+  --color-font-main: white;
+  /* Subtext Font, metainformation, that is less visible */
+  --color-font-sub: dimgray;
+  /* Disabled texts on buttons */
+  --color-font-disabled: hsl(0, 0%, 25%);
+  /* Text shadow for glow effect */
+  --color-font-shadow: darkgoldenrod;
+
+  /** BACKGROUND & FONT */
+  /* Logo Accent */
+  --color-accent: darkgoldenrod;
+}

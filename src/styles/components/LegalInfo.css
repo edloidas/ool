@@ -1,0 +1,20 @@
+.LegalInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.LegalInfo > :not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.LegalInfo .Logo {
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 480px) {
+  .LegalInfo .Logo {
+    font-size: 0.55rem;
+  }
+}

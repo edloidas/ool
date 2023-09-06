@@ -1,0 +1,21 @@
+@import '/node_modules/modern-normalize/modern-normalize.css';
+
+@import 'all.css';
+@import 'dark.css';
+@import 'light.css';
+
+/* Components */
+
+@import 'components/App.css';
+@import 'components/Button.css';
+@import 'components/GameInfo.css';
+@import 'components/LegalInfo.css';
+@import 'components/Link.css';
+@import 'components/Logo.css';
+@import 'components/MainScreen.css';
+@import 'components/Overlay.css';
+@import 'components/PlayButton.css';
+@import 'components/SocialLink.css';
+@import 'components/SocialLinks.css';
+@import 'components/ThemeSwitcher.css';
+@import 'components/Uppercased.css';

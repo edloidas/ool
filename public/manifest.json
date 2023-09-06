@@ -1,0 +1,19 @@
+{
+  "name" : "Order of Lust",
+  "display" : "browser",
+  "scope" : "/",
+  "start_url" : "/",
+  "icons": [{
+    "src": "assets/img/favicon/favicon.ico",
+    "sizes": "16x16 32x32"
+  }, {
+    "src": "assets/img/favicon/favicon-64.png",
+    "sizes": "48x48 64x64"
+  }, {
+    "src": "assets/img/favicon/favicon-256.png",
+    "sizes": "128x128 192x192 256x256"
+  }, {
+    "src": "assets/img/favicon/favicon-512.png",
+    "sizes": "512x512"
+  }]
+}

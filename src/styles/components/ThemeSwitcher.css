@@ -1,0 +1,4 @@
+.theme-light .ThemeSwitcher-SunIcon,
+.theme-dark .ThemeSwitcher-MoonIcon {
+  display: none;
+}

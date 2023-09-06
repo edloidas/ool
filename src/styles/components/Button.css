@@ -1,0 +1,23 @@
+.Button {
+  --Button-size: 40px;
+  position: relative;
+  min-width: var(--Button-size);
+  height: var(--Button-size);
+  padding: 0 12px;
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--color-font-main);
+}
+
+.Button:not(:disabled):hover {
+  background-color: var(--color-ui-bg-hover);
+  cursor: pointer;
+}
+
+.Button:not(:disabled):active {
+  background-color: var(--color-ui-bg-active);
+}

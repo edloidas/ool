@@ -1,0 +1,21 @@
+.MenuScreen {
+  display: grid;
+  grid-template-rows: 48px 1fr min-content 48px;
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.MenuScreen > :nth-child(1) {
+  grid-row: 2;
+}
+
+.MenuScreen > :nth-child(2) {
+  grid-row: 3;
+}
+
+.MenuScreen > :nth-child(3) {
+  grid-row: 4;
+}

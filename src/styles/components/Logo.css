@@ -1,0 +1,40 @@
+.Logo {
+  position: relative;
+  text-align: center;
+  font-family: var(--font-logo);
+  font-size: 1em;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.Logo-Author {
+
+  position: absolute;
+  width: 100%;
+  top: -2em;
+  padding: 0 0 0 0.125em;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: var(--color-font-sub);
+}
+
+.Logo-Title {
+  position: relative;
+  padding: 0 0 0 0.05em;
+  font-size: 4em;
+  letter-spacing: 0.05em;
+  color: var(--color-font-main);
+  text-shadow: 0 0 4px var(--color-font-shadow);
+  line-height: 0.9em;
+  margin-top: 0.1em;
+}
+
+.Logo-Description {
+  margin: -0.2em 0 0 0;
+  padding: 0 0 0 0.125em;
+  font-size: 2em;
+  text-transform: lowercase;
+  letter-spacing: 0.125em;
+  color: var(--color-accent);
+}

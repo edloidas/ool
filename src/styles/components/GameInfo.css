@@ -1,0 +1,12 @@
+.GameInfo {
+  text-align: center;
+  font-family: var(--font-logo);
+  color: var(--color-font-sub);
+}
+
+.GameInfo_annotated {
+  font-size: 0.75em;
+  color: var(--color-font-disabled);
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}

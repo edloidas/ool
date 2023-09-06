@@ -1,0 +1,26 @@
+.theme-light {
+  /** BACKGROUND */
+  /* Game Background */
+  --color-ui-bg: whitesmoke;
+  /*  Hovered Background, as bg on :hover */
+  --color-ui-bg-hover: hsl(0, 0%, 90%);
+  /*  Active Background, as bg on :active */
+  --color-ui-bg-active: hsl(0, 0%, 92%);
+
+  /* Foreground, as submenu on Screen */
+  --color-ui-fg: hsl(0, 0%, 94%);
+
+  /** FONT */
+  /* Main Font */
+  --color-font-main: black;
+  /* Subtext Font, metainformation, that is less visible */
+  --color-font-sub: hsl(0, 0%, 50%);
+  /* Disabled texts on buttons */
+  --color-font-disabled: hsl(0, 0%, 70%);
+  /* Text shadow for glow effect */
+  --color-font-shadow: dimgray;
+
+  /** BACKGROUND & FONT */
+  /* Logo Accent */
+  --color-accent: goldenrod;
+}

@@ -1,0 +1,29 @@
+:root {
+  --font-logo: 'Vollkorn', Georgia, 'Times New Roman', serif;
+  --font-ui: 'PTSerif', Georgia, 'Times New Roman', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /** BACKGROUND & FONT */
+  --color-transparent: hsl(0, 0%, 0%, 0);
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.svg-inline {
+  display: inline-block;
+  box-sizing: content-box;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}

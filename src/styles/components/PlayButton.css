@@ -1,0 +1,11 @@
+.PlayButton {
+  --Button-size: 64px;
+  background-color: var(--color-ui-fg);
+  padding: 0 24px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  /* Temporary disabled */
+  pointer-events: none;
+  user-select: none;
+  filter: blur(2px);
+}
