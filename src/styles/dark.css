@@ -13,7 +13,7 @@
   /** FONT */
   /* Main Font */
   --color-font-main: white;
-  /* Subtext Font, metainformation, that is less visible */
+  /* Subtext Font, meta information, that is less visible */
   --color-font-sub: dimgray;
   /* Disabled texts on buttons */
   --color-font-disabled: hsl(0, 0%, 25%);

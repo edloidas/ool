@@ -11,7 +11,7 @@ const app = document.querySelector('.App') as Element;
 const themeSwitcher = document.querySelector('.ThemeSwitcher') as Element;
 
 
-useTheme(getPreferedTheme());
+useTheme(getPreferredTheme());
 window.matchMedia?.('(prefers-color-scheme: dark)').addEventListener('change', event => {
   const theme = event.matches ? Theme.DARK : Theme.LIGHT;
   useTheme(theme);
@@ -19,7 +19,9 @@ window.matchMedia?.('(prefers-color-scheme: dark)').addEventListener('change', e
 
 themeSwitcher.addEventListener('click', () => {
   const isDark = app.classList.contains(Theme.DARK);
-  useTheme(isDark ? Theme.LIGHT : Theme.DARK);
+  const theme = isDark ? Theme.LIGHT : Theme.DARK;
+  setPreferredTheme(theme);
+  useTheme(theme);
 });
 
 //* === THEME ===
@@ -38,10 +40,9 @@ function useTheme(theme: Theme) {
     themeSwitcher.setAttribute('title', lightTitle);
     themeSwitcher.setAttribute('aria-label', lightTitle);
   }
-  setPreferedTheme(theme);
 }
 
-function getPreferedTheme(): Theme {
+function getPreferredTheme(): Theme {
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme === Theme.LIGHT || savedTheme === Theme.DARK) {
     return savedTheme;
@@ -51,6 +52,6 @@ function getPreferedTheme(): Theme {
   return isDark ? Theme.DARK : Theme.LIGHT;
 }
 
-function setPreferedTheme(theme: Theme): void {
+function setPreferredTheme(theme: Theme): void {
   localStorage.setItem('theme', theme);
 }
