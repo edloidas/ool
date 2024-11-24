@@ -1,151 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order of Lust</title>
+    <meta
+      name="description"
+      content="A furry isometric RPG with a story-driven mix of detective, romance, and horror elements."
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="whitesmoke"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="hsl(0deg, 0%, 7%)"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Order of Lust</title>
-  <meta name="description"
-    content="A furry isometric RPG with a story-driven mix of detective, romance, and horror elements.">
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="whitesmoke" />
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="hsl(0deg, 0%, 7%)" />
+    <!-- Manifest -->
+    <link rel="manifest" href="/manifest.json" />
 
-  <!-- Manifest -->
-  <link rel="manifest" href="/manifest.json">
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="/assets/img/favicon/favicon.ico"
+      sizes="16x16 32x32"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="/assets/img/favicon/favicon-64.png"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/assets/img/favicon/favicon-256.png"
+      sizes="128x128 192x192 256x256"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/assets/img/favicon/favicon-512.png"
+      sizes="any"
+      type="image/png"
+    />
 
-  <!-- Favicon -->
-  <link rel="icon" href="/assets/img/favicon/favicon.ico" sizes="16x16 32x32" type="image/x-icon">
-  <link rel="icon" href="/assets/img/favicon/favicon-64.png" sizes="64x64" type="image/png">
-  <link rel="icon" href="/assets/img/favicon/favicon-256.png" sizes="128x128 192x192 256x256" type="image/png">
-  <link rel="icon" href="/assets/img/favicon/favicon-512.png" sizes="any" type="image/png">
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="A furry isometric RPG with a story-driven mix of detective, romance and horror elements."
+    />
+    <meta name="keywords" content="game, rpg, furry, isometric" />
+    <meta name="author" content="edloidas" />
 
-  <!-- SEO Meta Tags -->
-  <meta name="description"
-    content="A furry isometric RPG with a story-driven mix of detective, romance and horror elements.">
-  <meta name="keywords" content="game, rpg, furry, isometric">
-  <meta name="author" content="edloidas">
+    <!-- OpenGraph tags for social media previews (e.g., Facebook, LinkedIn) -->
+    <meta property="og:title" content="Order of Lust" />
+    <meta
+      property="og:description"
+      content="A furry isometric RPG with a story-driven mix of detective, romance and horror elements."
+    />
+    <meta property="og:image" content="/assets/img/favicon/favicon-512.png" />
+    <meta property="og:url" content="https://orderoflust.com/" />
 
-  <!-- OpenGraph tags for social media previews (e.g., Facebook, LinkedIn) -->
-  <meta property="og:title" content="Order of Lust">
-  <meta property="og:description"
-    content="A furry isometric RPG with a story-driven mix of detective, romance and horror elements.">
-  <meta property="og:image" content="/assets/img/favicon/favicon-512.png">
-  <meta property="og:url" content="https://orderoflust.com/">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Order of Lust" />
+    <meta
+      name="twitter:description"
+      content="A furry isometric RPG with a story-driven mix of detective, romance and horror elements."
+    />
+    <meta name="twitter:image" content="/assets/img/favicon/favicon-512.png" />
+    <meta name="twitter:site" content="@orderoflust" />
+    <meta name="twitter:creator" content="@edloidas" />
 
-  <!-- Twitter Card data -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Order of Lust">
-  <meta name="twitter:description"
-    content="A furry isometric RPG with a story-driven mix of detective, romance and horror elements.">
-  <meta name="twitter:image" content="/assets/img/favicon/favicon-512.png">
-  <meta name="twitter:site" content="@orderoflust">
-  <meta name="twitter:creator" content="@edloidas">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Vollkorn&display=swap"
-    rel="stylesheet">
+    <!-- Stylesheets & JavaScript Files -->
+    <link rel="stylesheet" href="/src/styles/index.css" />
+    <script type="module" src="/src/js/main.ts" defer></script>
+  </head>
 
-  <!-- Stylesheets & JavaScript Files -->
-  <link rel="stylesheet" href="/src/styles/index.css">
-  <script type="module" src="/src/js/main.ts" defer></script>
-</head>
+  <body>
+    <div class="App theme-light">
+      <div class="MenuScreen screen">
+        <div class="LegalInfo">
+          <div class="Logo Logo_simple">
+            <div class="Logo-Author">edloidas production</div>
+            <div class="Logo-Title">
+              <span class="Uppercased">
+                <span class="Uppercased-Capital">O</span><span>rder of </span
+                ><span class="Uppercased-Capital">L</span><span>ust</span>
+              </span>
+            </div>
+            <div class="Logo-Description">A Furry Role-Playing Game</div>
+          </div>
 
-<body>
-  <div class="App theme-light">
-    <div class="MenuScreen screen">
-      <div class="LegalInfo">
-
-        <div class="Logo Logo_simple">
-          <div class="Logo-Author">edloidas production</div>
-          <div class="Logo-Title">
-            <span class="Uppercased">
-              <span class="Uppercased-Capital">O</span><span>rder of </span><span
-                class="Uppercased-Capital">L</span><span>ust</span>
+          <div class="GameInfo">
+            <span class="Creators">
+              <span>
+                Created and coded by
+                <a class="Link" href="https://edloidas.io" rel="noreferrer"
+                  >edloidas</a
+                >.
+              </span>
+              <span>
+                Art by
+                <a
+                  class="Link"
+                  href="https://www.furaffinity.net/user/ronff/"
+                  rel="noreferrer"
+                  >Ronff</a
+                >,
+                <a
+                  class="Link"
+                  href="https://twitter.com/Merkury0_0/"
+                  rel="noreferrer"
+                  >Merkury</a
+                >,
+                <a
+                  class="Link"
+                  href="https://www.artstation.com/realistovech"
+                  rel="noreferrer"
+                  >RVECH</a
+                >,
+                <a
+                  class="Link"
+                  href="https://www.artstation.com/dankalaning"
+                  rel="noreferrer"
+                  >dankalaning</a
+                >.
+              </span>
+              <span>
+                Music by
+                <a
+                  class="Link"
+                  href="https://www.youtube.com/channel/UC6npnetK7ZVU_3nVd_Fb49g"
+                  rel="noreferrer"
+                  >Madiax</a
+                >.
+              </span>
             </span>
           </div>
-          <div class="Logo-Description">A Furry Role-Playing Game</div>
+
+          <div class="GameInfo">
+            This game is meant only for adults ages 18 and up. May include
+            scenes of violence, sexual content, strong language.
+          </div>
+
+          <button
+            class="Button PlayButton"
+            type="button"
+            title="Play Order of Lust"
+          >
+            Play
+          </button>
+
+          <div class="GameInfo GameInfo_annotated">Coming Spring 2025</div>
         </div>
 
-        <div class="GameInfo">
-          <span class="Creators">
-            <span>
-              Created and coded by
-              <a class="Link" href="https://edloidas.io" rel="noreferrer">edloidas</a>.
-            </span>
-            <span>
-              Art by
-              <a class="Link" href="https://www.furaffinity.net/user/ronff/" rel="noreferrer">Ronff</a>,
-              <a class="Link" href="https://twitter.com/Merkury0_0/" rel="noreferrer">Merkury</a>,
-              <a class="Link" href="https://www.artstation.com/realistovech" rel="noreferrer">RVECH</a>,
-              <a class="Link" href="https://www.artstation.com/dankalaning" rel="noreferrer">dankalaning</a>.
-            </span>
-            <span>
-              Music by
-              <a class="Link" href="https://www.youtube.com/channel/UC6npnetK7ZVU_3nVd_Fb49g"
-                rel="noreferrer">Madiax</a>.
-            </span>
-          </span>
-        </div>
-
-        <div class="GameInfo">This game is meant only for adults ages 18 and up. May include scenes of violence, sexual
-          content, strong language.</div>
-
-        <button class="Button PlayButton" type="button" title="Play Order of Lust">Play</button>
-
-        <div class="GameInfo GameInfo_annotated">Coming Fall 2024</div>
-      </div>
-
-      <div class="SocialLinks">
-        <a class="Link SocialLink" href="https://www.patreon.com/join/orderoflust" title="Patreon" rel="noreferrer">
-          <svg aria-hidden="true" focusable="false" class="svg-inline" role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512">
-            <path fill="currentColor"
-              d="M489.7 153.8c-.1-65.4-51-119-110.7-138.3C304.8-8.5 207-5 136.1 28.4C50.3 68.9 23.3 157.7 22.3 246.2C21.5 319 28.7 510.6 136.9 512c80.3 1 92.3-102.5 129.5-152.3c26.4-35.5 60.5-45.5 102.4-55.9c72-17.8 121.1-74.7 121-150z">
-            </path>
-          </svg>
-        </a>
-        <a class="Link SocialLink" href="https://x.com/OrderOfLust" title="𝕏 / Twitter" rel="noreferrer">
-          <svg aria-hidden="true" focusable="false" class="svg-inline" role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512">
-            <path fill="currentColor"
-              d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
-            </path>
-          </svg>
-        </a>
-        <!--
+        <div class="SocialLinks">
+          <a
+            class="Link SocialLink"
+            href="https://www.patreon.com/join/orderoflust"
+            title="Patreon"
+            rel="noreferrer"
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              class="svg-inline"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="currentColor"
+                d="M489.7 153.8c-.1-65.4-51-119-110.7-138.3C304.8-8.5 207-5 136.1 28.4C50.3 68.9 23.3 157.7 22.3 246.2C21.5 319 28.7 510.6 136.9 512c80.3 1 92.3-102.5 129.5-152.3c26.4-35.5 60.5-45.5 102.4-55.9c72-17.8 121.1-74.7 121-150z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="Link SocialLink"
+            href="https://x.com/OrderOfLust"
+            title="𝕏 / Twitter"
+            rel="noreferrer"
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              class="svg-inline"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="currentColor"
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+              ></path>
+            </svg>
+          </a>
+          <!--
         <a class="Link SocialLink" href="#" title="Discord" rel="noreferrer" target="_blank">
           <svg aria-hidden="true" focusable="false" class="svg-inline" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
             <path fill="currentColor" d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
           </svg>
         </a>
-        -->
+        --></div>
+
+        <div class="GameInfo">Order of Lust™ &amp; © edloidas</div>
       </div>
 
-      <div class="GameInfo">Order of Lust™ &amp; © edloidas</div>
+      <div class="Overlay">
+        <button
+          class="Button ThemeSwitcher"
+          type="button"
+          title="Use dark theme"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="svg-inline ThemeSwitcher-MoonIcon"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"
+          >
+            <path
+              fill="currentColor"
+              d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"
+            ></path>
+          </svg>
 
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="svg-inline ThemeSwitcher-SunIcon"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="currentColor"
+              d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"
+            ></path>
+          </svg>
+        </button>
+      </div>
     </div>
-
-    <div class="Overlay">
-      <button class="Button ThemeSwitcher" type="button" title="Use dark theme">
-        <svg aria-hidden="true" focusable="false" class="svg-inline ThemeSwitcher-MoonIcon" role="img"
-          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-          <path fill="currentColor"
-            d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z">
-          </path>
-        </svg>
-
-        <svg aria-hidden="true" focusable="false" class="svg-inline ThemeSwitcher-SunIcon" role="img"
-          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-          <path fill="currentColor"
-            d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z">
-          </path>
-        </svg>
-      </button>
-    </div>
-
-  </div>
-</body>
-
+  </body>
 </html>

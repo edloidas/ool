@@ -2,6 +2,7 @@
   text-align: center;
   font-family: var(--font-logo);
   color: var(--color-font-sub);
+  line-height: 1.25rem;
 }
 
 .GameInfo_annotated {

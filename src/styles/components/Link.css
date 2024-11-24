@@ -1,3 +1,4 @@
 .Link {
   color: var(--color-accent);
+  text-underline-offset: 0.125em;
 }
