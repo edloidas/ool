@@ -84,8 +84,16 @@
     />
 
     <!-- Stylesheets & JavaScript Files -->
+    <link rel="preload" href="/src/styles/index.css" as="style" />
     <link rel="stylesheet" href="/src/styles/index.css" />
     <script type="module" src="/src/js/main.ts" defer></script>
+
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
+    <link rel="canonical" href="https://orderoflust.com/" />
   </head>
 
   <body>
@@ -159,19 +167,21 @@
             class="Button PlayButton"
             type="button"
             title="Play Order of Lust"
+            aria-label="Play Order of Lust game"
           >
             Play
           </button>
 
-          <div class="GameInfo GameInfo_annotated">Coming Spring 2025</div>
+          <div class="GameInfo GameInfo_annotated">Coming Fall 2025</div>
         </div>
 
-        <div class="SocialLinks">
+        <div class="SocialLinks" aria-label="Social media links">
           <a
             class="Link SocialLink"
             href="https://www.patreon.com/join/orderoflust"
             title="Patreon"
             rel="noreferrer"
+            aria-label="Support us on Patreon"
           >
             <svg
               aria-hidden="true"
@@ -192,6 +202,7 @@
             href="https://x.com/OrderOfLust"
             title="𝕏 / Twitter"
             rel="noreferrer"
+            aria-label="Follow us on X (Twitter)"
           >
             <svg
               aria-hidden="true"
@@ -223,6 +234,7 @@
           class="Button ThemeSwitcher"
           type="button"
           title="Use dark theme"
+          aria-label="Switch theme"
         >
           <svg
             aria-hidden="true"

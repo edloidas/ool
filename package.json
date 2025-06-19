@@ -11,12 +11,12 @@
     "pre": "pnpm clean && pnpm build"
   },
   "devDependencies": {
-    "@types/node": "^20.11.17",
-    "autoprefixer": "^10.4.17",
-    "vite": "^5.1.1"
+    "@types/node": "^24.0.3",
+    "autoprefixer": "^10.4.21",
+    "vite": "^6.3.5"
   },
   "dependencies": {
-    "modern-normalize": "^2.0.0"
+    "modern-normalize": "^3.0.1"
   },
   "browserslist": {
     "production": [
