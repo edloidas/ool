@@ -62,7 +62,7 @@
       property="og:description"
       content="A furry isometric RPG with a story-driven mix of detective, romance and horror elements."
     />
-    <meta property="og:image" content="/assets/img/favicon/favicon-512.png" />
+    <meta property="og:image" content="./assets/img/favicon/favicon-512.png" />
     <meta property="og:url" content="https://orderoflust.com/" />
 
     <!-- Twitter Card data -->
@@ -72,7 +72,7 @@
       name="twitter:description"
       content="A furry isometric RPG with a story-driven mix of detective, romance and horror elements."
     />
-    <meta name="twitter:image" content="/assets/img/favicon/favicon-512.png" />
+    <meta name="twitter:image" content="./assets/img/favicon/favicon-512.png" />
     <meta name="twitter:site" content="@orderoflust" />
     <meta name="twitter:creator" content="@edloidas" />
 
@@ -84,8 +84,15 @@
     />
 
     <!-- Stylesheets & JavaScript Files -->
-    <script type="module" crossorigin src="./assets/main-4YuuEGox.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/main-DakxVwMB.css">
+
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
+    <link rel="canonical" href="https://orderoflust.com/" />
+    <script type="module" crossorigin src="./assets/main-C_mAKJZs.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-AstrBgZ6.css">
   </head>
 
   <body>
@@ -159,19 +166,21 @@
             class="Button PlayButton"
             type="button"
             title="Play Order of Lust"
+            aria-label="Play Order of Lust game"
           >
             Play
           </button>
 
-          <div class="GameInfo GameInfo_annotated">Coming Spring 2025</div>
+          <div class="GameInfo GameInfo_annotated">Coming Fall 2025</div>
         </div>
 
-        <div class="SocialLinks">
+        <div class="SocialLinks" aria-label="Social media links">
           <a
             class="Link SocialLink"
             href="https://www.patreon.com/join/orderoflust"
             title="Patreon"
             rel="noreferrer"
+            aria-label="Support us on Patreon"
           >
             <svg
               aria-hidden="true"
@@ -192,6 +201,7 @@
             href="https://x.com/OrderOfLust"
             title="𝕏 / Twitter"
             rel="noreferrer"
+            aria-label="Follow us on X (Twitter)"
           >
             <svg
               aria-hidden="true"
@@ -223,6 +233,7 @@
           class="Button ThemeSwitcher"
           type="button"
           title="Use dark theme"
+          aria-label="Switch theme"
         >
           <svg
             aria-hidden="true"
